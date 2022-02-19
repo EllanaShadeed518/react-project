@@ -1,0 +1,43 @@
+.linee{
+    position: relative;
+}
+.linee:after{
+    content:'';
+    background-color:#212529;
+    position: absolute;
+    top:120px;
+    left:35%;
+    width: 12%;
+    height: 5px;
+    border-radius: 5px;
+    
+}
+.fonts{
+    font-size: 70px;
+    color:#212529;
+    }
+    .linn{
+        position: relative;
+    }
+    .linn::before{
+        content:'';
+        background-color:#212529;
+        position: absolute;
+        top:-12px;
+        left:53%;
+        width: 12%;
+        height: 5px;
+        border-radius: 5px;
+        
+    }
+    .e{
+        padding-bottom: 100px;
+    }
+    .s{
+        color:#212529;
+        font-size: 30px;
+        top:50px;
+    }
+    .bgcolor{
+background-color:#1abc9c ;
+    }

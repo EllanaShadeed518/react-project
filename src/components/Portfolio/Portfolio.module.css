@@ -1,0 +1,77 @@
+.linee{
+    position: relative;
+}
+.linee:after{
+    content:'';
+    background-color:#212529;
+    position: absolute;
+    top:120px;
+    left:35%;
+    width: 12%;
+    height: 5px;
+    border-radius: 5px;
+    
+}
+
+.fonts{
+font-size: 70px;
+color:#212529 ;
+}
+.fontss{
+    font-size: 100px;
+font-weight:bold;
+}
+.s{
+    color:#212529;
+    font-size: 30px;
+    top:50px;
+}
+.linn{
+    position: relative;
+}
+.linn::before{
+    content:'';
+    background-color:#212529;
+    position: absolute;
+    top:-12px;
+    left:53%;
+    width: 12%;
+    height: 5px;
+    border-radius: 5px;
+    
+}
+.e{
+    padding-bottom: 100px;
+}
+
+.p-item{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.over{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1abc9c;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: 0.2s;
+    
+    
+}
+.h  :hover{
+    opacity: 0.95;
+    
+    
+
+}
+.bcolor{
+    background-color:  #1abc9c !important;
+    
+
+}

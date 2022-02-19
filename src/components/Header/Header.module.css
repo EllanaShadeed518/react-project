@@ -1,0 +1,42 @@
+.image{
+    width: 20%;
+    
+    
+}
+.fonts{
+font-size: 50px;
+}
+.linee{
+    position: relative;
+}
+.linee:after{
+    content:'';
+    background-color:white;
+    position: absolute;
+    top:104px;
+    left:35%;
+    width: 12%;
+    height: 5px;
+    border-radius: 5px;
+}
+.s{
+    color:white;
+    font-size: 30px;
+    top:50px;
+}
+.linn{
+    position: relative;
+}
+.linn:before{
+    content:'';
+    background-color:white;
+    position: absolute;
+    top:-12px;
+    left:53%;
+    width: 12%;
+    height: 5px;
+    border-radius: 5px;
+}
+.bgcolor{
+    background-color:#1abc9c ;
+}
